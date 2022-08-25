@@ -12,21 +12,22 @@
     <title>Crypto Tracker</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
-<body>
-<div class="container">
+<body id="body">
+<div class="container ">
     <div class="row justify-content-center">
-        <h1 class="col-md-7  text-center">Crypto Tracker</h1>
-        <h4 class="col-md-7 text-center">By O.Banarse</h4>
-  
+      
+        <h1 class="col-md-12 text-center animate-charcter">Crypto Tracker</h1>
+        <h4 class="col-md-7 text-center animate-charcter">By O.Banarse</h4>
+       
         <div class="col-md-6 row justify-content-center">
             <div class="col-10">
                 <form id="searchForm" action=" ">
                     <div class="form-row">
                         <div class="col-md-17  form-group">
-                            <label for="selectct"><b>Coin Type</b></label>
+                            <label for="selectct"><b style='color:white'>Coin Type</b></label>
                             <select name="cointype" class="form-control" id="selectct">
                                 <option value="bitcoin">Bitcoin - INR</option>
                                 <option value="dogecoine">Dogecoin - INR</option>
@@ -40,9 +41,8 @@
                 </form>
             </div>
         </div>
-        <div class="col-md-7  text-center row justify-content-center"> 
-            <table class="col-md-7 m-2 table table-bordered table-striped" border="2" id="tableresult">
-
+        <div style="color:white" class="col-md-7  text-center row justify-content-center"> 
+            <table style='color:white; ' class="col-md-7 m-2 table table-bordered roundedCorners"  id="tableresult">
             </table>
             
         </div>

@@ -26,7 +26,7 @@ const fetchPrice = async(ctype) => {
     // const time= r.data.timestamp;
 
     result1.innerHTML=`                
-        <tr>
+        <tr style='color:white'>
             <th>Property</th>
             <th>Amount</th>
         </tr>
@@ -47,3 +47,5 @@ const fetchPrice = async(ctype) => {
     upd=setTimeout(()=>fetchPrice(ctype),10000);
 
 };
+
+
