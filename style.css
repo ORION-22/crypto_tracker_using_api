@@ -20,7 +20,7 @@ body{
 }
 
 @keyframes animatebg {
-    0% { background-image: url("bg_wallpaper/1.jpg"); }
+    0% { background-image: url("/bg_wallpaper/1.jpg"); }
     25%{ background-image: url("/bg_wallpaper/2.jpg");}
     50%{ background-image: url("/bg_wallpaper/3.jpg");}
     75%{ background-image: url("/bg_wallpaper/4.jpg");}
