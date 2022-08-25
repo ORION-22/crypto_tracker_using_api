@@ -3,7 +3,7 @@ body{
     width:100%;
 
     background-color: #000000;
-    background-image: url("https://github.com/ORION-22/crypto_tracker_using_api/blob/main/bg_wallpaper/1.jpg?raw=true");
+    background-image: url("https://github.com/ORION-22/crypto_tracker_using_api/blob/main/bg_wallpaper/5.jpg?raw=true");
     background-repeat:no-repeat;
     background-size:cover;
     /* background-position: bottom-center; */
@@ -20,11 +20,11 @@ body{
 }
 
 @keyframes animatebg {
-    0% { background-image: url("https://github.com/ORION-22/crypto_tracker_using_api/blob/main/bg_wallpaper/1.jpg?raw=true"); }
-    25%{ background-image: url("https://github.com/ORION-22/crypto_tracker_using_api/blob/main/bg_wallpaper/1.jpg?raw=true");}
-    50%{ background-image: url("https://github.com/ORION-22/crypto_tracker_using_api/blob/main/bg_wallpaper/1.jpg?raw=true");}
-    75%{ background-image: url("https://github.com/ORION-22/crypto_tracker_using_api/blob/main/bg_wallpaper/1.jpg?raw=true");}
-    100%{ background-image: url("https://github.com/ORION-22/crypto_tracker_using_api/blob/main/bg_wallpaper/1.jpg?raw=true");}
+    0% { background-image: url("https://github.com/ORION-22/crypto_tracker_using_api/blob/main/bg_wallpaper/1.jpg?raw=true");}
+    25%{ background-image: url("https://github.com/ORION-22/crypto_tracker_using_api/blob/main/bg_wallpaper/2.jpg?raw=true");}
+    50%{ background-image: url("https://github.com/ORION-22/crypto_tracker_using_api/blob/main/bg_wallpaper/3.jpg?raw=true");}
+    75%{ background-image: url("https://github.com/ORION-22/crypto_tracker_using_api/blob/main/bg_wallpaper/4.jpg?raw=true");}
+    100%{ background-image: url("https://github.com/ORION-22/crypto_tracker_using_api/blob/main/bg_wallpaper/5.jpg?raw=true");}
 }
 
 .animate-charcter
